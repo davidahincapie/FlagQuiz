@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DB7577D1BFA51F80054D5C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7577C1BFA51F80054D5C0 /* AppDelegate.swift */; };
+		7DB7577F1BFA51F80054D5C0 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7577E1BFA51F80054D5C0 /* QuizViewController.swift */; };
+		7DB757821BFA51F80054D5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB757801BFA51F80054D5C0 /* Main.storyboard */; };
+		7DB757841BFA51F80054D5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB757831BFA51F80054D5C0 /* Assets.xcassets */; };
+		7DB757871BFA51F80054D5C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB757851BFA51F80054D5C0 /* LaunchScreen.storyboard */; };
+		7DB757921BFA51F80054D5C0 /* FlagQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB757911BFA51F80054D5C0 /* FlagQuizTests.swift */; };
+		7DB7579D1BFA51F80054D5C0 /* FlagQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7579C1BFA51F80054D5C0 /* FlagQuizUITests.swift */; };
+		7DB757AB1BFA54620054D5C0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB757AA1BFA54620054D5C0 /* SettingsViewController.swift */; };
+		7DB757AD1BFA624B0054D5C0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB757AC1BFA624B0054D5C0 /* Model.swift */; };
+		7DB757B51BFA62E30054D5C0 /* Africa in Resources */ = {isa = PBXBuildFile; fileRef = 7DB757AF1BFA62E30054D5C0 /* Africa */; };
+		7DB757B61BFA62E30054D5C0 /* Asia in Resources */ = {isa = PBXBuildFile; fileRef = 7DB757B01BFA62E30054D5C0 /* Asia */; };
+		7DB757B71BFA62E30054D5C0 /* Europe in Resources */ = {isa = PBXBuildFile; fileRef = 7DB757B11BFA62E30054D5C0 /* Europe */; };
+		7DB757B81BFA62E30054D5C0 /* North_America in Resources */ = {isa = PBXBuildFile; fileRef = 7DB757B21BFA62E30054D5C0 /* North_America */; };
+		7DB757B91BFA62E30054D5C0 /* Oceania in Resources */ = {isa = PBXBuildFile; fileRef = 7DB757B31BFA62E30054D5C0 /* Oceania */; };
+		7DB757BA1BFA62E30054D5C0 /* South_America in Resources */ = {isa = PBXBuildFile; fileRef = 7DB757B41BFA62E30054D5C0 /* South_America */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DB7578E1BFA51F80054D5C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DB757711BFA51F80054D5C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB757781BFA51F80054D5C0;
+			remoteInfo = FlagQuiz;
+		};
+		7DB757991BFA51F80054D5C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DB757711BFA51F80054D5C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB757781BFA51F80054D5C0;
+			remoteInfo = FlagQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DB757791BFA51F80054D5C0 /* FlagQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlagQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB7577C1BFA51F80054D5C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DB7577E1BFA51F80054D5C0 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		7DB757811BFA51F80054D5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DB757831BFA51F80054D5C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DB757861BFA51F80054D5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DB757881BFA51F80054D5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB7578D1BFA51F80054D5C0 /* FlagQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlagQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB757911BFA51F80054D5C0 /* FlagQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuizTests.swift; sourceTree = "<group>"; };
+		7DB757931BFA51F80054D5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB757981BFA51F80054D5C0 /* FlagQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlagQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB7579C1BFA51F80054D5C0 /* FlagQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuizUITests.swift; sourceTree = "<group>"; };
+		7DB7579E1BFA51F80054D5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB757AA1BFA54620054D5C0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7DB757AC1BFA624B0054D5C0 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7DB757AF1BFA62E30054D5C0 /* Africa */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Africa; sourceTree = "<group>"; };
+		7DB757B01BFA62E30054D5C0 /* Asia */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Asia; sourceTree = "<group>"; };
+		7DB757B11BFA62E30054D5C0 /* Europe */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Europe; sourceTree = "<group>"; };
+		7DB757B21BFA62E30054D5C0 /* North_America */ = {isa = PBXFileReference; lastKnownFileType = folder; path = North_America; sourceTree = "<group>"; };
+		7DB757B31BFA62E30054D5C0 /* Oceania */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Oceania; sourceTree = "<group>"; };
+		7DB757B41BFA62E30054D5C0 /* South_America */ = {isa = PBXFileReference; lastKnownFileType = folder; path = South_America; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DB757761BFA51F80054D5C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB7578A1BFA51F80054D5C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB757951BFA51F80054D5C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DB757701BFA51F80054D5C0 = {
+			isa = PBXGroup;
+			children = (
+				7DB7577B1BFA51F80054D5C0 /* FlagQuiz */,
+				7DB757901BFA51F80054D5C0 /* FlagQuizTests */,
+				7DB7579B1BFA51F80054D5C0 /* FlagQuizUITests */,
+				7DB7577A1BFA51F80054D5C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DB7577A1BFA51F80054D5C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DB757791BFA51F80054D5C0 /* FlagQuiz.app */,
+				7DB7578D1BFA51F80054D5C0 /* FlagQuizTests.xctest */,
+				7DB757981BFA51F80054D5C0 /* FlagQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB7577B1BFA51F80054D5C0 /* FlagQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				7DB757AE1BFA62A20054D5C0 /* images */,
+				7DB7577C1BFA51F80054D5C0 /* AppDelegate.swift */,
+				7DB7577E1BFA51F80054D5C0 /* QuizViewController.swift */,
+				7DB757801BFA51F80054D5C0 /* Main.storyboard */,
+				7DB757831BFA51F80054D5C0 /* Assets.xcassets */,
+				7DB757851BFA51F80054D5C0 /* LaunchScreen.storyboard */,
+				7DB757881BFA51F80054D5C0 /* Info.plist */,
+				7DB757AA1BFA54620054D5C0 /* SettingsViewController.swift */,
+				7DB757AC1BFA624B0054D5C0 /* Model.swift */,
+			);
+			path = FlagQuiz;
+			sourceTree = "<group>";
+		};
+		7DB757901BFA51F80054D5C0 /* FlagQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DB757911BFA51F80054D5C0 /* FlagQuizTests.swift */,
+				7DB757931BFA51F80054D5C0 /* Info.plist */,
+			);
+			path = FlagQuizTests;
+			sourceTree = "<group>";
+		};
+		7DB7579B1BFA51F80054D5C0 /* FlagQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DB7579C1BFA51F80054D5C0 /* FlagQuizUITests.swift */,
+				7DB7579E1BFA51F80054D5C0 /* Info.plist */,
+			);
+			path = FlagQuizUITests;
+			sourceTree = "<group>";
+		};
+		7DB757AE1BFA62A20054D5C0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7DB757AF1BFA62E30054D5C0 /* Africa */,
+				7DB757B01BFA62E30054D5C0 /* Asia */,
+				7DB757B11BFA62E30054D5C0 /* Europe */,
+				7DB757B21BFA62E30054D5C0 /* North_America */,
+				7DB757B31BFA62E30054D5C0 /* Oceania */,
+				7DB757B41BFA62E30054D5C0 /* South_America */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DB757781BFA51F80054D5C0 /* FlagQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB757A11BFA51F80054D5C0 /* Build configuration list for PBXNativeTarget "FlagQuiz" */;
+			buildPhases = (
+				7DB757751BFA51F80054D5C0 /* Sources */,
+				7DB757761BFA51F80054D5C0 /* Frameworks */,
+				7DB757771BFA51F80054D5C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlagQuiz;
+			productName = FlagQuiz;
+			productReference = 7DB757791BFA51F80054D5C0 /* FlagQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DB7578C1BFA51F80054D5C0 /* FlagQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB757A41BFA51F80054D5C0 /* Build configuration list for PBXNativeTarget "FlagQuizTests" */;
+			buildPhases = (
+				7DB757891BFA51F80054D5C0 /* Sources */,
+				7DB7578A1BFA51F80054D5C0 /* Frameworks */,
+				7DB7578B1BFA51F80054D5C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DB7578F1BFA51F80054D5C0 /* PBXTargetDependency */,
+			);
+			name = FlagQuizTests;
+			productName = FlagQuizTests;
+			productReference = 7DB7578D1BFA51F80054D5C0 /* FlagQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DB757971BFA51F80054D5C0 /* FlagQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB757A71BFA51F80054D5C0 /* Build configuration list for PBXNativeTarget "FlagQuizUITests" */;
+			buildPhases = (
+				7DB757941BFA51F80054D5C0 /* Sources */,
+				7DB757951BFA51F80054D5C0 /* Frameworks */,
+				7DB757961BFA51F80054D5C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DB7579A1BFA51F80054D5C0 /* PBXTargetDependency */,
+			);
+			name = FlagQuizUITests;
+			productName = FlagQuizUITests;
+			productReference = 7DB757981BFA51F80054D5C0 /* FlagQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DB757711BFA51F80054D5C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "David Hincapie";
+				TargetAttributes = {
+					7DB757781BFA51F80054D5C0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 42C7GH6L8N;
+					};
+					7DB7578C1BFA51F80054D5C0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 42C7GH6L8N;
+						TestTargetID = 7DB757781BFA51F80054D5C0;
+					};
+					7DB757971BFA51F80054D5C0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 42C7GH6L8N;
+						TestTargetID = 7DB757781BFA51F80054D5C0;
+					};
+				};
+			};
+			buildConfigurationList = 7DB757741BFA51F80054D5C0 /* Build configuration list for PBXProject "FlagQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DB757701BFA51F80054D5C0;
+			productRefGroup = 7DB7577A1BFA51F80054D5C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DB757781BFA51F80054D5C0 /* FlagQuiz */,
+				7DB7578C1BFA51F80054D5C0 /* FlagQuizTests */,
+				7DB757971BFA51F80054D5C0 /* FlagQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DB757771BFA51F80054D5C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB757B51BFA62E30054D5C0 /* Africa in Resources */,
+				7DB757871BFA51F80054D5C0 /* LaunchScreen.storyboard in Resources */,
+				7DB757B71BFA62E30054D5C0 /* Europe in Resources */,
+				7DB757841BFA51F80054D5C0 /* Assets.xcassets in Resources */,
+				7DB757BA1BFA62E30054D5C0 /* South_America in Resources */,
+				7DB757821BFA51F80054D5C0 /* Main.storyboard in Resources */,
+				7DB757B61BFA62E30054D5C0 /* Asia in Resources */,
+				7DB757B81BFA62E30054D5C0 /* North_America in Resources */,
+				7DB757B91BFA62E30054D5C0 /* Oceania in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB7578B1BFA51F80054D5C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB757961BFA51F80054D5C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DB757751BFA51F80054D5C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB7577F1BFA51F80054D5C0 /* QuizViewController.swift in Sources */,
+				7DB7577D1BFA51F80054D5C0 /* AppDelegate.swift in Sources */,
+				7DB757AB1BFA54620054D5C0 /* SettingsViewController.swift in Sources */,
+				7DB757AD1BFA624B0054D5C0 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB757891BFA51F80054D5C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB757921BFA51F80054D5C0 /* FlagQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB757941BFA51F80054D5C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB7579D1BFA51F80054D5C0 /* FlagQuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DB7578F1BFA51F80054D5C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DB757781BFA51F80054D5C0 /* FlagQuiz */;
+			targetProxy = 7DB7578E1BFA51F80054D5C0 /* PBXContainerItemProxy */;
+		};
+		7DB7579A1BFA51F80054D5C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DB757781BFA51F80054D5C0 /* FlagQuiz */;
+			targetProxy = 7DB757991BFA51F80054D5C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DB757801BFA51F80054D5C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DB757811BFA51F80054D5C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DB757851BFA51F80054D5C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DB757861BFA51F80054D5C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DB7579F1BFA51F80054D5C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DB757A01BFA51F80054D5C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DB757A21BFA51F80054D5C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlagQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidahincapie.FlagQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DB757A31BFA51F80054D5C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlagQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidahincapie.FlagQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7DB757A51BFA51F80054D5C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlagQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidahincapie.FlagQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlagQuiz.app/FlagQuiz";
+			};
+			name = Debug;
+		};
+		7DB757A61BFA51F80054D5C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlagQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidahincapie.FlagQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlagQuiz.app/FlagQuiz";
+			};
+			name = Release;
+		};
+		7DB757A81BFA51F80054D5C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlagQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidahincapie.FlagQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlagQuiz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7DB757A91BFA51F80054D5C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlagQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidahincapie.FlagQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlagQuiz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DB757741BFA51F80054D5C0 /* Build configuration list for PBXProject "FlagQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB7579F1BFA51F80054D5C0 /* Debug */,
+				7DB757A01BFA51F80054D5C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB757A11BFA51F80054D5C0 /* Build configuration list for PBXNativeTarget "FlagQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB757A21BFA51F80054D5C0 /* Debug */,
+				7DB757A31BFA51F80054D5C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7DB757A41BFA51F80054D5C0 /* Build configuration list for PBXNativeTarget "FlagQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB757A51BFA51F80054D5C0 /* Debug */,
+				7DB757A61BFA51F80054D5C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7DB757A71BFA51F80054D5C0 /* Build configuration list for PBXNativeTarget "FlagQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB757A81BFA51F80054D5C0 /* Debug */,
+				7DB757A91BFA51F80054D5C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DB757711BFA51F80054D5C0 /* Project object */;
+}
